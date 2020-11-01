@@ -1,0 +1,11 @@
+name: gda
+channels:
+        - conda-forge
+dependencies:
+        - python=3.8.6
+        - numpy
+        - scipy
+        - jupyterlab
+        - pip
+        - pip:
+                - tensorflow
